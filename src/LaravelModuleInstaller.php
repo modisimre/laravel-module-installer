@@ -65,7 +65,7 @@ class LaravelModuleInstaller extends LibraryInstaller
             throw new \Exception($this->usage());
         }
 
-        return implode('',array_map('ucfirst', $splitNameToUse));
+        return ucfirst($split[0]).implode('',array_map('ucfirst', $splitNameToUse));
     }
 
     /**
