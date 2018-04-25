@@ -1,14 +1,14 @@
 {
-    "name": "joshbrw/laravel-module-installer",
+    "name": "mweb/laravel-module-installer",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Joshbrw\\LaravelModuleInstaller\\": "src/"
+            "Mweb\\LaravelModuleInstaller\\": "src/"
         }
     },
     "extra": {
-        "class": "Joshbrw\\LaravelModuleInstaller\\LaravelModuleInstallerPlugin"
+        "class": "Mweb\\LaravelModuleInstaller\\LaravelModuleInstallerPlugin"
     },
     "require-dev": {
         "composer/composer": "^1.3",
