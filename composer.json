@@ -16,7 +16,6 @@
         "phpunit/phpunit": "~6.0"
     },
     "require": {
-        "composer-plugin-api": "^2.0",
-        "php": "7.*"
+        "composer-plugin-api": "^2.0"
     }
 }
